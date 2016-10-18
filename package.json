@@ -1,5 +1,5 @@
 {
-  "name": "vagin",
+  "name": "image-sequences",
   "version": "0.0.1",
   "description": "Plugin for playing image sequences.",
   "main": "index.js",
@@ -8,10 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whats0n/vagin.git"
+    "url": "git+https://github.com/whats0n/imageSequences.js.git"
   },
   "keywords": [
-    "vagin",
     "sequence",
     "sequences",
     "plugin",
@@ -22,7 +21,7 @@
   "author": "Valentyn Dorosh & Andrey Gnilitskiy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/whats0n/vagin/issues"
+    "url": "https://github.com/whats0n/imageSequences/issues"
   },
-  "homepage": "https://github.com/whats0n/vagin#readme"
+  "homepage": "https://github.com/whats0n/imageSequences#readme"
 }
