@@ -1,5 +1,5 @@
 # Installation
-```npm install vagin --save-dev```
+```npm install image-sequence --save-dev```
 ## Usage
 ```js
 new Sequence({
