@@ -1,4 +1,4 @@
-'use strict';
+
 
 module.exports = (function(root, factory) {
 
@@ -14,8 +14,7 @@ module.exports = (function(root, factory) {
 	}
 
 } (this, function() {
-
-
+	'use strict';
 	//factory
 	class Sequences {
 
