@@ -2,9 +2,18 @@
 
 module.exports = (function(root, factory) {
 
-	root.Sequence = factory();
+	if (typeof define === 'function' && define.amd) {
+		// AMD. Register as an anonymous module.
+		define(factory);
+	} else if (typeof exports === 'object') {
+		// CommonJS
+		module.exports = factory();
+	} else {
+		// Browser global
+		root.Sequence = factory();
+	}
 
-} (window, function() {
+} (this, function() {
 
 
 	//factory
