@@ -1,6 +1,6 @@
 {
   "name": "image-sequences",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Plugin for playing image sequences.",
   "main": "index.js",
   "scripts": {
